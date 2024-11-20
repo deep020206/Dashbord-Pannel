@@ -1,0 +1,101 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+  /* max-width: 480px; */
+  width: 98vw;
+  height: 100vh;
+  margin: auto;
+  background-color: #45565d9e;
+  /* height: 500px; */
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.nav #myLinks {
+  display: none;
+}
+
+.nav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.nav a.icon {
+  background: #466e82;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu {
+  background-color: #466e82;
+  color: white;
+}
+.myclass1{
+  color: black;
+}
+.mid{
+      background-color: rgba(36, 33, 33, 0.388);
+      margin-left: 12vw;
+}
+.color{
+  background-color: #d1dfcffa;
+  font-size: 20px;
+  padding: 36px;
+
+}
+.color1{
+  background-color: #e6abe0fa;
+  font-size: 20px;
+  padding: 36px;
+
+}
+.bg{
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl6RNEMLH8n7VKyN1wcsv8YTRBKX95QcT8vA&s);
+}
+.bg2{
+  background-image: url(https://www.splashlearn.com/math-vocabulary/wp-content/uploads/2022/05/graphs-9-01-1.png);
+}
+
+@media only screen and (min-width: 800px) {
+  .nav a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav a.icon {
+    float: right;
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+  .mid{
+    background-color: rgba(36, 33, 33, 0.388);
+    margin-left: 1px;
+}
+  
+}
+
+
